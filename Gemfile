@@ -38,5 +38,5 @@ end
 group :test do
   gem "capybara"
   gem "selenium-webdriver"
-  gem "cucumber-rails"
+  gem "cucumber-rails", require: false
 end
